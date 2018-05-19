@@ -1,0 +1,18 @@
+allprojects {
+  group = 'groovy-tdd-katas'
+  version = '1.0-SNAPSHOT'
+}
+
+subprojects {
+  apply plugin: 'groovy'
+
+  repositories {
+    mavenLocal()
+
+    maven { url "http://repo.maven.apache.org/maven2" }
+  }
+
+  dependencies {
+    testCompile group: 'org.spockframework', name: 'spock-core', version: '1.1-groovy-2.4'
+  }
+}
