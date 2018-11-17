@@ -13,7 +13,7 @@ class FizzBuzzTest extends Specification {
     when: 'fizz buzz a list'
     List<String> result = fizzBuzz.fizzBuzz([])
 
-    then: 'result is empty'
+    then: 'result list is empty'
     result == []
   }
 
@@ -21,7 +21,7 @@ class FizzBuzzTest extends Specification {
     when: 'fizz buzz a list'
     List<String> result = fizzBuzz.fizzBuzz([1])
 
-    then: 'result contains stringified number'
+    then: 'result list contains stringified number'
     result == ['1']
   }
 
@@ -29,7 +29,7 @@ class FizzBuzzTest extends Specification {
     when: 'fizz buzz a list'
     List<String> result = fizzBuzz.fizzBuzz([3])
 
-    then: 'result contains "fizz"'
+    then: 'result list contains "fizz"'
     result == ['fizz']
   }
 
@@ -37,7 +37,7 @@ class FizzBuzzTest extends Specification {
     when: 'fizz buzz a list'
     List<String> result = fizzBuzz.fizzBuzz([5])
 
-    then: 'result contains "buzz"'
+    then: 'result list contains "buzz"'
     result == ['buzz']
   }
 
@@ -45,7 +45,7 @@ class FizzBuzzTest extends Specification {
     when: 'fizz buzz a list'
     List<String> result = fizzBuzz.fizzBuzz([15])
 
-    then: 'result contains "fizzbuzz"'
+    then: 'result list contains "fizzbuzz"'
     result == ['fizzbuzz']
   }
 }
