@@ -22,3 +22,5 @@ include ':fizz-buzz-kata:fizz-buzz-day-11'
 include ':fizz-buzz-kata:fizz-buzz-day-12'
 include ':fizz-buzz-kata:fizz-buzz-day-13'
 include ':fizz-buzz-kata:fizz-buzz-day-14'
+
+include ':prime-factor-kata:prime-factor-day-01'
