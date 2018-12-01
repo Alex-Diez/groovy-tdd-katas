@@ -24,3 +24,4 @@ include ':fizz-buzz-kata:fizz-buzz-day-13'
 include ':fizz-buzz-kata:fizz-buzz-day-14'
 
 include ':prime-factor-kata:prime-factor-day-01'
+include ':prime-factor-kata:prime-factor-day-02'
